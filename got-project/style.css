@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Montserrat:wght@300;400&display=swap");
+@import url("https://db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones");
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Grenze Gotisch", cursive;
+  color: rgb(30, 30, 30);
+}
+
+.container__main {
+  display: flex;
+  flex-direction: row;
+}
+
+.container__pictures {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  align-self: flex-start;
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/site/mapblue.jpg");
+  object-fit: fill;
+  flex-grow: 5;
+}
+
+.container__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Game Of Thrones";
+  color: white;
+  font-size: 20px;
+  height: 100vh;
+  width: 400px;
+  flex-grow: 1;
+  background-color: rgb(60, 60, 60);
+}
+
+.title {
+  padding: 10px;
+}
+
+.infos {
+  height: 100%;
+  font-family: "Grenze Gotisch", cursive;
+  color: white;
+  font-size: 20px;
+}
+
+.input__container {
+  padding-bottom: 20px;
+  justify-self: flex-end;
+}
+
+.input__field {
+  padding: 5px;
+}
+
+.search {
+  padding: 5px;
+}
+
+.open {
+  padding: 5px;
+}
